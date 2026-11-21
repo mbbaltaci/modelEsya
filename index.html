@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eşya Galerisi</title>
+  <style>
+    .galeri {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      padding: 16px;
+    }
+    .esya-karti {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+    .esya-karti img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="galeri">
+    <div class="esya-karti">
+      <img src="koltuk.jpg" alt="Koltuk">
+      <p>Koltuk</p>
+    </div>
+    <div class="esya-karti">
+      <img src="masa.jpg" alt="Masa">
+      <p>Masa</p>
+    </div>
+    <div class="esya-karti">
+      <img src="lamba.jpg" alt="Lamba">
+      <p>Lamba</p>
+    </div>
+  <div class="esya-karti">
+      <img src="sandalye.jpg" alt="Sandalye">
+      <p>Lamba</p>
+    </div>
+</body>
+</html>
